@@ -6,7 +6,8 @@ shareBtn.addEventListener('click', event => {
   if (navigator.share) {
     // Browser supports native share api
     navigator.share({
-      text: 'Get us on: ',
+      img: 'https://hansrajweb.netlify.app/assets/img/bg.jpg',
+      text: 'Digitizing Creativity Is All That We Do So Well <br> Check Our Creativity 👇🏻 & Digitalize Your Creativity: ',
       url: 'https://hansrajweb.netlify.app/'
     }).then(() => {
       console.log('Thanks for sharing!');

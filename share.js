@@ -9,7 +9,7 @@ shareBtn.addEventListener('click', event => {
       img: 'https://hansrajweb.netlify.app/assets/img/bg.jpg',
       text: 'Digitizing Creativity Is All That We Do So Well Check Our Creativity 👇🏻 & Digitalize Your Creativity: ',
       url: 'https://hansrajweb.netlify.app/',
-      text: 'Thanks & Regards, <br> Websites By Hansraj Kondeda'
+      h1: 'Thanks & Regards, <br> Websites By Hansraj Kondeda'
     }).then(() => {
       console.log('Thanks for sharing!');
     })

@@ -60,6 +60,13 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.col-5 {
+filter: grayscale(100%);
+}
+​
+.col-5:hover {
+filter: grayscale(0%);
+}
 .btn {
     padding: 10px 25px 10px 25px;
     margin: 5px;

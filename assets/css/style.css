@@ -246,6 +246,9 @@ h6 {
 @media (max-width: 768px) {
   #header.header-top {
     height: 60px;
+.row {
+    text-align: center;
+}
   }
 
   #header.header-top h1 {

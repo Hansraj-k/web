@@ -67,6 +67,15 @@ filter: grayscale(100%);
 .col-5:hover {
 filter: grayscale(0%);
 }
+.col-5 img {
+	-webkit-filter: grayscale(100%) !important;
+	filter: grayscale(100%) !important;
+}
+
+.col-5 img:hover {
+	-webkit-filter: grayscale(0) !important;
+	filter: grayscale(0) !important;
+}
 .btn {
     padding: 10px 25px 10px 25px;
     margin: 5px;

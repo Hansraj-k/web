@@ -80,6 +80,12 @@ filter: grayscale(0%);
 @media only screen and (max-width: 600px){
 .row {
 	align-items: center;
+}
+.col-5 {
+	align-items: center;
+}
+.col-5 img{
+	align-items: center;
 	text-align: center;
 }
 }

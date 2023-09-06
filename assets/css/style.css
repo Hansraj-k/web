@@ -76,6 +76,12 @@ filter: grayscale(0%);
 	-webkit-filter: grayscale(0) !important;
 	filter: grayscale(0) !important;
 }
+
+@media only screen and (max-width: 600px){
+.row {
+    align-items: center;
+}
+}
 .row{
 	margin-top: 70px;
 }
@@ -249,9 +255,6 @@ h6 {
 @media (max-width: 768px) {
   #header.header-top {
     height: 60px;
-.row {
-    text-align: center;
-}
   }
 
   #header.header-top h1 {

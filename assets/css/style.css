@@ -76,11 +76,6 @@ filter: grayscale(0%);
 	-webkit-filter: grayscale(0) !important;
 	filter: grayscale(0) !important;
 }
-@media only screen and (max-width: 600px){
-.row {
-    text-align: center;
-}
-}
 .row{
 	margin-top: 70px;
 }

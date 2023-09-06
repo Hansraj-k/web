@@ -62,6 +62,7 @@ body{
 }
 .col-5 {
 filter: grayscale(100%);
+width: 0; 
 }
 ​
 .col-5:hover {

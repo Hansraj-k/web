@@ -47,52 +47,6 @@ body{
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
     cursor: pointer;
 }
-
-.small-container {
-    max-width: 1080px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-.row {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.col-5 {
-filter: grayscale(100%);
-width: 0; 
-}
-​
-.col-5:hover {
-filter: grayscale(0%);
-}
-.col-5 img {
-	-webkit-filter: grayscale(100%) !important;
-	filter: grayscale(100%) !important;
-}
-
-.col-5 img:hover {
-	-webkit-filter: grayscale(0) !important;
-	filter: grayscale(0) !important;
-}
-
-@media only screen and (max-width: 600px){
-.row {
-	align-items: center;
-}
-.col-5 {
-	align-items: center;
-}
-.col-5 img{
-	align-items: center;
-	text-align: center;
-}
-}
-.row{
-	margin-top: 70px;
-}
 .btn {
     padding: 10px 25px 10px 25px;
     margin: 5px;

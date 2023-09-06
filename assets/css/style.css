@@ -671,14 +671,6 @@ section .container {
   margin-bottom: 20px;
   color: #fff;
 }
-.brand {
-  font-size: 26px;
-  font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #fff;
-  text-align: center;
-}
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;

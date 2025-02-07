@@ -73,6 +73,20 @@ body::before {
   }
 }
 
+@media screen and (max-width: 510px) {
+  body::before {
+    background: #040404 url("../img/bgrkspgkussa510.jpg") center no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  body::before {
+    background: #040404 url("../img/bgrkspgkussa630.jpg") center no-repeat;
+    background-size: cover;
+  }
+}
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;

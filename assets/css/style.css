@@ -68,7 +68,7 @@ body::before {
 
 @media screen and (max-width: 1110px) {
   body::before {
-    background: #040404 url("../img/bgrkspgkussa.jpg") top right no-repeat;
+    background: #040404 url("../img/bgrkspgkussa.jpg") center no-repeat;
     background-size: cover;
   }
 }

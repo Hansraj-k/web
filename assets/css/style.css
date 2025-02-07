@@ -66,6 +66,13 @@ body::before {
   z-index: -1;
 }
 
+@media screen and (max-width: 1110px) {
+  body::before {
+    background: #040404 url("../img/bgrkspgkussa.jpg") top right no-repeat;
+    background-size: cover;
+  }
+}
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;

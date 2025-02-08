@@ -103,14 +103,6 @@ body::before {
     }
 }
 
-#header h1 {
-    display: block; /* Show on home page */
-}
-
-body:not(#header) h1 {
-    display: none; /* Hide on other pages */
-}
-
 a {
   color: #bd59d4;
   text-decoration: none;
@@ -148,6 +140,7 @@ h6 {
 }
 
 #header h1 {
+  display: block; /* Ensures it is visible on the homepage */
   font-size: 48px;
   margin: 0;
   padding: 0;
@@ -156,11 +149,16 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
+/* Hide h1 on other pages */
+body:not(.home) #header h1 {
+  display: none;
+}
+
+/* Link styling */
 #header h1 a,
 #header h1 a:hover {
   color: #fff;
-  line-height: 1;
-  display: inline-block;
+  text-decoration: none; /* Ensures no underline */
 }
 
 #header h2 {

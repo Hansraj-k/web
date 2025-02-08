@@ -100,7 +100,7 @@ body::before {
 
 /* Show the logo only inside the header for screens with max-width 768px */
 @media (max-width: 768px) {
-    header .logo {
+    #header .logo {
         display: block;
         width: 100px; /* Adjust size as needed */
         height: auto;

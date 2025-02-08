@@ -93,8 +93,15 @@ body::before {
   }
 }
 
+/* Hide the logo by default */
+.logo {
+    display: none;
+}
+
+/* Show the logo only inside the header for screens with max-width 768px */
 @media (max-width: 768px) {
-    .responsive-logo {
+    header .logo {
+        display: block;
         width: 100px; /* Adjust size as needed */
         height: auto;
         position: absolute;
@@ -153,12 +160,6 @@ h6 {
   color: #fff;
   line-height: 1;
   display: inline-block;
-}
-
-#about h1 ,
-#websites h1 ,
-#contact h1  {
-    display: none;
 }
 
 #header h2 {

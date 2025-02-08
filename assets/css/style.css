@@ -103,6 +103,14 @@ body::before {
     }
 }
 
+#header h1 {
+    display: block; /* Show on home page */
+}
+
+body:not(#header) h1 {
+    display: none; /* Hide on other pages */
+}
+
 a {
   color: #bd59d4;
   text-decoration: none;

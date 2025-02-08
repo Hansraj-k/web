@@ -73,16 +73,9 @@ body::before {
   }
 }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 768px) {
   body::before {
-    background: #040404 url("../img/bgrkspgkussa510.jpg") center no-repeat;
-    background-size: cover;
-  }
-}
-
-@media screen and (max-width: 630px) {
-  body::before {
-    background: #040404 url("../img/bgrkspgkussa630.jpg") center no-repeat;
+    background: #040404 url("../img/bgrkspgkussa768.jpg") center no-repeat;
     background-size: cover;
   }
 }

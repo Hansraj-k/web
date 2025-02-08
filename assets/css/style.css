@@ -140,7 +140,6 @@ h6 {
 }
 
 #header h1 {
-  display: block; /* Ensures it is visible on the homepage */
   font-size: 48px;
   margin: 0;
   padding: 0;
@@ -149,9 +148,10 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
-/* Hide h1 on other pages */
-body:not(.home) #header h1 {
-  display: none;
+#about h1 ,
+#websites h1 ,
+#contact h1  {
+    display: none;
 }
 
 /* Link styling */

@@ -148,17 +148,17 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
+#header h1 a,
+#header h1 a:hover {
+  color: #fff;
+  line-height: 1;
+  display: inline-block;
+}
+
 #about h1 ,
 #websites h1 ,
 #contact h1  {
     display: none;
-}
-
-/* Link styling */
-#header h1 a,
-#header h1 a:hover {
-  color: #fff;
-  text-decoration: none; /* Ensures no underline */
 }
 
 #header h2 {
